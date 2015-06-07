@@ -1,15 +1,42 @@
 {
-    "proposal": [{
-        "title": "Title of the speech",
-        "description": "Tell me something to convince me that your proposal is very cool",
-        "tags": ["aspnet vnext", "nodejs", "ruby", "angulars"],
-        "author": {
-            "firstname": "Ugo",
-            "lastaname": "Lattanzi",
-            "twitter": "@imperugo",
-            "blog": "http://tostring.it",
-            "bio": "Ugo is a programmer specialized in enterprise application, with focus in web applications, service oriented applications and, generally, in all the environments where scalability is a top priority. Thanks to the experience earned in the latest years, Ugo is now focused on technologies like ASP.NET MVC, NodeJS, Azure, NServiceBus Nhibernate and HTML5. Thanks to this passion in web development using ASP.NET MVC, Microsoft granted him the MVP Award in this technology. Speaker for the most important Italian communities, Author of several articles and co-organizer of the widely appreciated Web.NET European Conference in 2012. Away from keybord he's a bad snowboarder but a good father.",
-            "avatarUrl": "https://avatars1.githubusercontent.com/u/758620?s=460"
-        }
-    }]
+  "proposal": [
+    {
+      "title": "OData v4: the easy way of exposing and querying structured data",
+      "description": "The REST architectural style is the currently most appreciated way to structure a backend for several good reasons. On the other side, there are many cases where you may want just to expose data using the classical CRUD. Furthermore, the nature of REST is schema-less that is an advantage from a versioning standpoint but it can be harder to browse for many clients. In this session, we will start discussing OData vs REST, then examine the v4 OASIS standard and dig into many samples and tools to rapidly start coding OData services.",
+      "tags": [
+        "OData",
+        "REST",
+        "Architecture",
+        "Data",
+        "CRUD"
+      ],
+      "author": {
+        "firstname": "Raffaele",
+        "lastname": "Rialdi",
+        "twitter": "@raffaeler",
+        "blog": "http://iamraf.net",
+        "bio": "Raffaele Rialdi is a senior Software Architect working as a consultant, speaker and trainer. Since 2003, he is a Microsoft MVP in the Developer Security category. His passion for the community brought him to be member of the board of UGIdotNET, president of DotNetLiguria and co-founder of the Italian C++ user group. Currently he is working as architect and developer on the backend of an enterprise project and working on cross-platform mobile development in both C# and C++ languages.",
+        "avatarUrl": "http://www.gravatar.com/avatar/2f72577141f4dfa8e985393773cb9e1f"
+      }
+    },
+    {
+      "title": "Asp.net 5 security 101",
+      "description": "Asp.net 5 is not just a new release of the famous web framework but a real turning point which every developer should take care of. While cross-platform and open-source looks like just buzzwords, they are really impacting the architecture of web applications and security is certainly a fundamental part. In this session, after a brief overview of the Asp.net 5 architecture, we will see which options we have to protect our application and web apis.",
+      "tags": [
+        "Security",
+        "AspNet5",
+        "authentication",
+        "authorization",
+        "architecture"
+      ],
+      "author": {
+        "firstname": "Raffaele",
+        "lastname": "Rialdi",
+        "twitter": "@raffaeler",
+        "blog": "http://iamraf.net",
+        "bio": "Raffaele Rialdi is a senior Software Architect working as a consultant, speaker and trainer. Since 2003, he is a Microsoft MVP in the Developer Security category. His passion for the community brought him to be member of the board of UGIdotNET, president of DotNetLiguria and co-founder of the Italian C++ user group. Currently he is working as architect and developer on the backend of an enterprise project and working on cross-platform mobile development in both C# and C++ languages.",
+        "avatarUrl": "http://www.gravatar.com/avatar/2f72577141f4dfa8e985393773cb9e1f"
+      }
+    }
+  ]
 }
